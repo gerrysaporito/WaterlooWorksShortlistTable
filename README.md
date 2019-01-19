@@ -9,10 +9,10 @@ After downloading the repository:
 1. Copy the code from the jobCollectionInfo.js file
 2. Navigate to your shortlist page in WaterlooWorks
 3. Open up the console
-  ***On Chrome: 
+  (in Chrome: 
       i) right click anywhere on the screen
       ii) select "inspect" at the bottom of the page
-      iii) switch the tab from "elements" to "console"
+      iii) switch the tab from "elements" to "console" )
  4. Paste the code in and hit enter (run the code)
  5. Copy the outputted code
  6. Open the shortlistTable.html from the downloaded repository
