@@ -4,8 +4,8 @@ This is NOT an affiliated with the University of Waterloo, and is only meant to 
 
 ***THIS IS NOT A WEB SCRAPING APPLICATION***
 
-TO USE:
-0. Download the repository
+After downloading the repository:
+
 1. Copy the code from the jobCollectionInfo.js file
 2. Navigate to your shortlist page in WaterlooWorks
 3. Open up the console
