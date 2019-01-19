@@ -1,0 +1,41 @@
+body {
+  font-family: arial;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+table {
+
+}
+
+tr {
+  border: 1px solid black;
+}
+
+td {
+  padding:5px;
+}
+
+h1 {
+  text-align: center;
+  margin: 0 auto 50px; auto;
+}
+
+tr.titles td {
+  border-bottom: 1px solid black;
+}
+
+.undo {
+  visibility: hidden;
+}
+
+.main {
+  display: inline-block;
+  font-family: inherit;
+  background-color: #FFFFF3;
+  margin: 30px auto;
+  border-radius: 30px;
+  padding: 30px;
+}
