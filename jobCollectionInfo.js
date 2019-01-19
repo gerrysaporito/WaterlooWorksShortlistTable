@@ -39,6 +39,11 @@ for(let i = 0; i < jobs[0].length; i++) {
   html += "<td><button class='undo'>Undo</button></td>\n"
   html += "</tr>\n"
 }
-html += "</table>\n</div>\n<script type='text/javascript' src='./shortlists.js'></script>\n</body>\n</html>";
+html += "</table>\n</div>\n<div id='counters'>\n"
+html += "<div id='counter'>\n<h2>Total Jobs: <span id='count'></span></h2>\n</div>\n"
+html += "<div class='counts'>\n<h4>Saved Jobs: <span id='good'></span></h4>\n</div>\n"
+html += "<div class='counts'>\n<h4>Maybe Jobs: <span id='ok'></span></h4>\n</div>\n"
+html += "<div class='counts'>\n<h4>Removed Jobs: <span id='bad'></span></h4>\n</div>\n</div>"
+html += "<script type='text/javascript' src='./shortlists.js'></script>\n</body>\n</html>";
 
 console.log(html);

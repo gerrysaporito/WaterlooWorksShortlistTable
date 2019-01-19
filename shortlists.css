@@ -39,3 +39,31 @@ tr.titles td {
   border-radius: 30px;
   padding: 30px;
 }
+
+.counts{
+  display: flex;
+  flex-direction: row;
+}
+
+#counters {
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  border-radius: 30px;
+}
+
+#counter h2 {
+  margin: 0;
+  padding: 4px;
+}
+
+.counts h4 {
+  margin: 0;
+  padding: 3px;
+}
