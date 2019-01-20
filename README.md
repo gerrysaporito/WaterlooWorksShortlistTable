@@ -15,7 +15,7 @@ After downloading the repository:
       iii) switch the tab from "elements" to "console" )
  4. Paste the code in and hit enter (run the code)
  5. Copy the outputted code
- 6. Open the shortlistTable.html from the downloaded repository
+ 6. Open the shortlistTable.html from the downloaded repository in a text editor
     * This should be empty, if not remove all the code
  7. Paste the newly downloaded code you copied from the console
  8. From your file explorer, navigate to your folder where the shortlistTable.html is located and double click the file
