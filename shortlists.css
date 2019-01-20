@@ -6,16 +6,27 @@ body {
   align-items: center;
 }
 
-table {
-
-}
-
 tr {
   border: 1px solid black;
 }
 
 td {
   padding:5px;
+  text-align: left
+}
+
+button {
+  border: none;
+  text-align: center;
+  padding: 3px 5px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:active {
+  outline: none;
 }
 
 h1 {
@@ -27,7 +38,7 @@ tr.titles td {
   border-bottom: 1px solid black;
 }
 
-.undo {
+.hidden {
   visibility: hidden;
 }
 
@@ -35,14 +46,32 @@ tr.titles td {
   display: inline-block;
   font-family: inherit;
   background-color: #FFFFF3;
-  margin: 30px auto;
+  margin: 30px auto 150px auto;
   border-radius: 30px;
   padding: 30px;
+  width: 90%;
 }
 
-.counts{
+.save {
+  background-color: aquamarine;
+}
+
+.maybe {
+  background-color: gainsboro;
+}
+
+.remove {
+  background-color: coral;
+}
+
+.counts {
   display: flex;
   flex-direction: row;
+}
+
+.counts h4 {
+  margin: 0;
+  padding: 3px;
 }
 
 #counters {
@@ -63,7 +92,25 @@ tr.titles td {
   padding: 4px;
 }
 
-.counts h4 {
-  margin: 0;
-  padding: 3px;
+/*======================CHECKMARK=================*/
+:root {
+  --borderWidth: 7px;
+  --height: 24px;
+  --width: 12px;
+  --borderColor: #78b13f;
 }
+
+body {
+  padding: 20px;
+  text-align: center;
+}
+
+.check {
+  display: inline-block;
+  transform: rotate(45deg);
+  height: var(--height);
+  width: var(--width);
+  border-bottom: var(--borderWidth) solid var(--borderColor);
+  border-right: var(--borderWidth) solid var(--borderColor);
+}
+/*=================================================*/
