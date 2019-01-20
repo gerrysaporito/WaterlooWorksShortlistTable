@@ -6,6 +6,10 @@ body {
   align-items: center;
 }
 
+table {
+  width: 93%;
+}
+
 tr {
   border: 1px solid black;
 }
@@ -46,7 +50,7 @@ tr.titles td {
   display: inline-block;
   font-family: inherit;
   background-color: #FFFFF3;
-  margin: 30px auto 150px auto;
+  margin: 30px auto 0px auto;
   border-radius: 30px;
   padding: 30px;
   width: 90%;
@@ -72,6 +76,17 @@ tr.titles td {
 .counts h4 {
   margin: 0;
   padding: 3px;
+}
+
+#resetTable {
+  margin: 30px auto;
+  text-align: center;
+}
+
+#reset {
+  font-size: 25px;
+  padding: 10px 25px;
+  margin: 30px auto;
 }
 
 #counters {

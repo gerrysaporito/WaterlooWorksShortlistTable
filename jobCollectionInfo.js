@@ -46,7 +46,9 @@ html += "<div id='counter'>\n<h2>Total Jobs: <span id='count'></span></h2>\n</di
 html += "<div class='counts'>\n<h4>Saved Jobs: <span id='good'></span></h4>\n</div>\n"
 html += "<div class='counts'>\n<h4>Maybe Jobs: <span id='ok'></span></h4>\n</div>\n"
 html += "<div class='counts'>\n<h4>Removed Jobs: <span id='bad'></span></h4>\n</div>\n"
-html += "<div class='counts'>\n<h4>Jobs Left: <span id='unselected'></span></h4>\n</div>\n</div>"
+html += "<div class='counts'>\n<h4>Cover Letters: <span id='coverLetters'></span></h4>\n</div>\n"
+html += "<div class='counts'>\n<h4>Jobs Left: <span id='unselected'></span></h4>\n</div>\n</div>\n"
+html += "<div id='resetTable'>\n<button id='reset'>Reset Table</button>\n</div>\n"
 html += "<script type='text/javascript' src='./shortlists.js'></script>\n</body>\n</html>";
 
 console.log(html);
